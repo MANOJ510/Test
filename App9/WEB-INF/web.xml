@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>ab</servlet-name>
+<servlet-class>ConnPoolServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ab</servlet-name>
+<url-pattern>/poolurl</url-pattern>
+</servlet-mapping>
+
+</web-app>

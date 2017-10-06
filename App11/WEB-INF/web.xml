@@ -1,0 +1,17 @@
+<web-app>
+<servlet>
+<servlet-name>abc1</servlet-name>
+<servlet-class>TestSrv1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>abc1</servlet-name>
+<url-pattern>/t1url</url-pattern>
+</servlet-mapping>
+<servlet-name>xyz1</servlet-name>
+<servlet-class>TestSrv2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>xyz1</servlet-name>
+<url-pattern>/t1ur2</url-pattern>
+</servlet-mapping>
+</web-app>
